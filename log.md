@@ -2,13 +2,13 @@
 
 Let's do this!
 
-<!-- ### Day 1: January 3, 2017
+### Day 1: January 3, 2017
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Forked the repo for #100DaysOfCode, compressed some jpegs, implemented a dynamic background image that changes based on the user's local weather, and used a case statement and some Sass.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** Great first day that started off getting reacquainted with forking a Git repo. I also used a mixin for the dynamic background which was particularly satisfying as I'm finally applying concepts learned in tutorials into my own projects. Not sure how to link to a live preview of my work on GitHub yet but I'll figure that out tomorrow. Woohoo!
 
-**Link to work:** [Calculator App](http://www.example.com) -->
+<!-- **Link to work:** [Calculator App](http://www.example.com) -->
 
 
 <!-- ### Day 2: January 4
