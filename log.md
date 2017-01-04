@@ -10,6 +10,11 @@ Let's do this!
 
 <!-- **Link to work:** [Calculator App](http://www.example.com) -->
 
+### Day 2: January 4, 2017
+
+**Today's Progress**: Implemented some styling to the app (I am no designer!). Used some flexbox. Also implemented a celcius to farenheit function for the temperature. Now to figure out how to toggle it back to celcius.
+
+**Thoughts:** It's hard to work on a weather app with today's weather being so hot! Started later in the day and I found it difficult to get going. However, I successfully managed to achieve my mini goal of converting the temperature to farenheit. I should finish this off tomorrow.
 
 <!-- ### Day 2: January 4
 
