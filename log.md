@@ -26,6 +26,21 @@ Let's do this!
 
 **Link to work:** [Local Weather App](https://bsummersgb.github.io/local-weather-app/)
 
+### Day 4: January 6, 2017
+
+**Today's Progress:** Fixed the issue with the background images not displaying on GitHub pages - see thoughts below.
+
+**Thoughts:** The image directory was not showing in the source because the root path had changed when it was pushed up to GitHub pages. Previously, I was linking to the images with /assets/img/rain.jpg however, the root folder is now actually bsummersgb.github.io. So I changed the path to /local-weather-app/assets/img/rain.jpg and that fixed the issue. However, this also means that the images no longer work on my local machine, but I think I can leave my master branch with the local environment path and only use the gh-pages branch for the full path.
+
+**Link to work:** [Local Weather App](https://bsummersgb.github.io/local-weather-app/)
+
+### Day 5: January 7, 2017
+
+**Today's Progress:** Long shift at work so could only do some code commenting and refactoring of the weather app.
+
+**Thoughts:** Still very valuable to force yourself to go back over and understand my code. Even though it was only 30 minutes of work before I go to sleep, I'm keeping up the habit of coding every day!
+
+**Link to work:** [Local Weather App](https://bsummersgb.github.io/local-weather-app/)
 
 
 <!-- ### Day 2: January 4
