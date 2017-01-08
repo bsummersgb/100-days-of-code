@@ -42,6 +42,14 @@ Let's do this!
 
 **Link to work:** [Local Weather App](https://bsummersgb.github.io/local-weather-app/)
 
+### Day 5: January 8, 2017
+
+**Today's Progress:** Trying to fixed issues with having mixed content on GitHub pages. Used https where possible.
+
+**Thoughts:** The OpenWeather API doesn't https without a paid subscription. I may have to change the API I use - forecast.io is anothe option.
+
+**Link to work:** [Local Weather App](https://bsummersgb.github.io/local-weather-app/)
+
 
 <!-- ### Day 2: January 4
 
