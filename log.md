@@ -42,13 +42,21 @@ Let's do this!
 
 **Link to work:** [Local Weather App](https://bsummersgb.github.io/local-weather-app/)
 
-### Day 5: January 8, 2017
+### Day 6: January 8, 2017
 
 **Today's Progress:** Trying to fixed issues with having mixed content on GitHub pages. Used https where possible.
 
 **Thoughts:** The OpenWeather API doesn't https without a paid subscription. I may have to change the API I use - forecast.io is anothe option.
 
 **Link to work:** [Local Weather App](https://bsummersgb.github.io/local-weather-app/)
+
+### Day 7: January 10, 2017
+
+**Today's Progress:** Started on the Wikipedia Viewer and created some basic structure for the app.
+
+**Thoughts:** Finding the documentation for the Media Wiki API very difficult to follow. This should be a relatively straight forward project once I construct the correct call to the API but it is proving difficult. Also feeling guilty for missing yesterday but the time I had assigned to code at the end of my shift was unavoidably removed. I had better ensure that I do not leave that to chance again in future and always code in the day.
+
+
 
 
 <!-- ### Day 2: January 4
