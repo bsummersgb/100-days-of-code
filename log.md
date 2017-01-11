@@ -56,6 +56,12 @@ Let's do this!
 
 **Thoughts:** Finding the documentation for the Media Wiki API very difficult to follow. This should be a relatively straight forward project once I construct the correct call to the API but it is proving difficult. Also feeling guilty for missing yesterday but the time I had assigned to code at the end of my shift was unavoidably removed. I had better ensure that I do not leave that to chance again in future and always code in the day.
 
+### Day 8: January 11, 2017
+
+**Today's Progress:** Sussed out the correct call to the API.
+
+**Thoughts:** Feeling happy that I finally cracked the documentation just by searching for the 'opensearch' property. I still don't think the docs are user-friendly though. Now just to figure out how to use a loop to iterate through the data and populate my unordered list.
+
 
 
 
