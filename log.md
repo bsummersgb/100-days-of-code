@@ -62,6 +62,12 @@ Let's do this!
 
 **Thoughts:** Feeling happy that I finally cracked the documentation just by searching for the 'opensearch' property. I still don't think the docs are user-friendly though. Now just to figure out how to use a loop to iterate through the data and populate my unordered list.
 
+### Day 9: January 12, 2017
+
+**Today's Progress:** Spent a lot of time delving into the jQuery ajax function and learnt about the templating engine Mustache.js. Also figured out how to display the data in an unordered list as individual list items with a for loop.
+
+**Thoughts:** A big victory today once I figured out how to correctly implement a for loop to iterate through the API data. Mustache.js is also super interesting and avoids messily constructed strings of html and variables in my JavaScript code. I just need to figure out how to grab the url for each list-item and place it in the <a> tag's href value.
+
 
 
 
