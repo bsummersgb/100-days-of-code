@@ -68,6 +68,12 @@ Let's do this!
 
 **Thoughts:** A big victory today once I figured out how to correctly implement a for loop to iterate through the API data. Mustache.js is also super interesting and avoids messily constructed strings of html and variables in my JavaScript code. I just need to figure out how to grab the url for each list-item and place it in the <a> tag's href value.
 
+### Day 10: January 13, 2017
+
+**Today's Progress:** Now successfully displaying data in a formatted list using Mustache and template tags.
+
+**Thoughts:** I felt I stepped up massively with the complexity of my code. I realised that the Mustache.render method does not accept an array as an argument. Instead of bailing on using Mustache I figured out how to convert my array data into object form which allowed for the use of the templating engine and the $.each function. I would like to look further into the each() method as well as reduce() and map().
+
 
 
 
