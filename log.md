@@ -74,6 +74,11 @@ Let's do this!
 
 **Thoughts:** I felt I stepped up massively with the complexity of my code. I realised that the Mustache.render method does not accept an array as an argument. Instead of bailing on using Mustache I figured out how to convert my array data into object form which allowed for the use of the templating engine and the $.each function. I would like to look further into the each() method as well as reduce() and map().
 
+### Day 11: January 14, 2017
+
+**Today's Progress:** No project work as I attended a NodeSchool meetup.
+
+**Thoughts:** Felt like a bit of a deep dive but it was good to expose myself to Node.js.
 
 
 
