@@ -80,13 +80,13 @@ Let's do this!
 
 **Thoughts:** Felt like a bit of a deep dive but it was good to expose myself to Node.js.
 
-### Day 12: January 15, 2017
+### Day 12: January 16, 2017
 
 **Today's Progress:** Did some styling for the list on the Wiki viewer.
 
 **Thoughts:** Missed a day yesterday - did not actually have one hour to spare a long shift at work. Back on track.
 
-### Day 13: January 16, 2017
+### Day 13: January 17, 2017
 
 **Today's Progress:** Finalised styling | Code refactoring | Comment code
 
