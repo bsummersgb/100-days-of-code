@@ -86,7 +86,7 @@ Let's do this!
 
 **Thoughts:** Missed a day yesterday - did not actually have one hour to spare a long shift at work. Back on track.
 
-### Day 12: January 15, 2017
+### Day 13: January 16, 2017
 
 **Today's Progress:** Finalised styling | Code refactoring | Comment code
 
