@@ -94,9 +94,17 @@ Let's do this!
 
 **Link to work:** [Wikipedia Viewer](https://bsummersgb.github.io/wikipedia-viewer/)
 
+### Day 14: January 18, 2017
+
+**Today's Progress:** Started on the Twitch TV app and successfully retrieved a list of channel objects.
+
+**Thoughts:** Decent few sessions today. I'm really getting into the swing of these ajax calls now. I feel I achieved more in less time today which is a very motivational feeling. I'll start linking to my commits now as I didn't realise you could do that before.
+
+**Link to work:** [Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/694143e74d647c41ff6d8cffeb086710b29db039)
 
 
-<!-- ### Day 2: January 4
+
+<!-- ### Example for algorithms -- Day 2: January 4
 
 **Today's Progress**: I've gone through many exercises on FreeCodeCamp.
 
