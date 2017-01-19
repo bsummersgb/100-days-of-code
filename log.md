@@ -102,6 +102,14 @@ Let's do this!
 
 **Link to work:** [Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/694143e74d647c41ff6d8cffeb086710b29db039)
 
+### Day 15: January 19, 2017
+
+**Today's Progress:** Came up against multiple bugs with subsequent solutions. Now experiencing 'brain melt' with another bug and will have to come back to it tomorrow.
+
+**Thoughts:** Despite the bugs today was probably the most valuable yet. Coming up against these problems is a great way to learn and it feels great once you fix the problem. I just need to utilise callbacks and promises to ensure that my list is only populated after the ajax functions have finished running within the $.each() function.
+
+**Link to work:** [Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/4c583c607747edd8b1434aca509d318b3dcbdff9)
+
 
 
 <!-- ### Example for algorithms -- Day 2: January 4
