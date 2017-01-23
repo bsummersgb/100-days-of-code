@@ -110,6 +110,12 @@ Let's do this!
 
 **Link to work:** [Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/4c583c607747edd8b1434aca509d318b3dcbdff9)
 
+### Day 16: January 23, 2017
+
+**Today's Progress:** Hit my first major roadblock; I've been stuck for three days!! I've spent a few hours each day trying to resolve the issue with my ajax calls within the $.each() function but have yet to come up with a solution.
+
+**Thoughts:** I've realised the main knowledge gap here has to do with executing code when all ajax iterations have completed, which involves using Promises. I'm chipping away at trying to understand this concept but it definitely feels like a higher-level leap. As a result, my code stands as of the last commit.
+
 
 
 <!-- ### Example for algorithms -- Day 2: January 4
