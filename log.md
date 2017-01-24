@@ -116,6 +116,13 @@ Let's do this!
 
 **Thoughts:** I've realised the main knowledge gap here has to do with executing code when all ajax iterations have completed, which involves using Promises. I'm chipping away at trying to understand this concept but it definitely feels like a higher-level leap. As a result, my code stands as of the last commit.
 
+### Day 17: January 24, 2017
+
+**Today's Progress:** FINALLY CRACKED IT!! Resolved a five-day bug in the code by using the concept of Promises.
+
+**Thoughts:** So instead of using an each loop, I mapped each channel name two separate ajax calls and returned the resolved promises to a new array. Upon the resolution of the promises I was able to assign the API data to a new object which I then used to display all the channel info in the html. This was absolutely the highest level of coding I have implemented so far.
+[Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/cf860b83fe7e1f948dbf446ebc750a552d43c616)
+
 
 
 <!-- ### Example for algorithms -- Day 2: January 4
