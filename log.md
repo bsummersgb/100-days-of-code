@@ -123,7 +123,13 @@ Let's do this!
 **Thoughts:** So instead of using an each loop, I mapped each channel name two separate ajax calls and returned the resolved promises to a new array. Upon the resolution of the promises I was able to assign the API data to a new object which I then used to display all the channel info in the html. This was absolutely the highest level of coding I have implemented so far.
 [Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/cf860b83fe7e1f948dbf446ebc750a552d43c616)
 
+### Day 18: January 25, 2017
 
+**Today's Progress:** Made a few changes to the list template so I there are conditional classes set to each channel. I can now view what is currently running on the live streams and I am about to start showing and hiding streams based on their status.
+
+**Thoughts:** So far the 100DaysOfCode challenge has been relatively successful. I did not commit anything for a few days because of a bug, however I was still working through the code; I just haven't counted those days towards the log. One thing I need to do is set up habitual time-blocks for when to code. I need a trigger/cue which will further reinforce the habit as currently I am just doing it when I have the time.
+
+[Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/6fdb7d78f7c53ea15dcd92cbe7bec29303b46cfc)
 
 <!-- ### Example for algorithms -- Day 2: January 4
 
