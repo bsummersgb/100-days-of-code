@@ -131,6 +131,15 @@ Let's do this!
 
 [Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/6fdb7d78f7c53ea15dcd92cbe7bec29303b46cfc)
 
+### Day 19: January 26, 2017
+
+**Today's Progress:** Set up an error handler to display a placeholder logo and message for channels that don't exist
+
+**Thoughts:** I have set up the error handle as a condition within the ajax call however, there may be a better way to do it within the then() function. It's just important for me to get it to work today as I have a big day at work.
+
+[Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/23e24cffb24781161ccfec056a9738f64d4e8e90)
+
+
 <!-- ### Example for algorithms -- Day 2: January 4
 
 **Today's Progress**: I've gone through many exercises on FreeCodeCamp.
