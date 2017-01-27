@@ -139,6 +139,14 @@ Let's do this!
 
 [Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/23e24cffb24781161ccfec056a9738f64d4e8e90)
 
+### Day 20: January 27, 2017
+
+**Today's Progress:** Spent the time just testing out different ways of showing the channel info depending on whether or not they are currently streaming.
+
+**Thoughts:** Whilst I have it working with buttons, I think I should work on a tab/file diver style so I can test the functionality and discover any edge cases that might prevent this method working properly.
+
+[Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/e7c9a11bd6b61bc7ae23b6da1e5468b41391941e)
+
 
 <!-- ### Example for algorithms -- Day 2: January 4
 
