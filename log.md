@@ -147,6 +147,14 @@ Let's do this!
 
 [Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/e7c9a11bd6b61bc7ae23b6da1e5468b41391941e)
 
+### Day 21: January 28, 2017
+
+**Today's Progress:** A lot of time spent on styling today. It seems tedious but this is probably due to my lack of practice with CSS and flexbox.
+
+**Thoughts:** I definitely prefer the programming side of web development!
+
+[Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/7e2e57c8d6398e2fe589892ce1f75ccb6717b731)
+
 
 <!-- ### Example for algorithms -- Day 2: January 4
 
