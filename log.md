@@ -155,6 +155,14 @@ Let's do this!
 
 [Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/7e2e57c8d6398e2fe589892ce1f75ccb6717b731)
 
+### Day 22: January 29, 2017
+
+**Today's Progress:** Virtually completed the Twitch API application, with just some minor styles remaining. I also have to upload it to GitHub pages and CodePen.
+
+**Thoughts:** Although it took longer than anticipated, it feels good to complete the third project. 100DaysOfCode is definitely helping me to be more consistent. I'm learning a lot faster even when it's just one hour per day as opposed to doing three hours every few days.
+
+[Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/8fc87f747474caaab14e301fc4a6c0202f0cd832)
+
 
 <!-- ### Example for algorithms -- Day 2: January 4
 
