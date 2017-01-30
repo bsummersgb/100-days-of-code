@@ -164,12 +164,13 @@ Let's do this!
 [Twitch TV App - latest commit](https://github.com/bsummersgb/twitchtv/commit/8fc87f747474caaab14e301fc4a6c0202f0cd832)
 
 
-<!-- ### Example for algorithms -- Day 2: January 4
+### Day 23: January 30, 2017
 
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
+**Today's Progress**: Created a GitHub page for the Twitch TV app and started on some more algorithms.
 
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
+**Thoughts** Feels good to post the live version of the Twitch TV app and to get cracking on with some more algorithms. More new JS please!
 
 **Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence) -->
+[Twitch TV App - DEMO](https://bsummersgb.github.io/twitchtv/)
+
+1. [Boo Who](https://www.freecodecamp.com/challenges/boo-who#?solution=function%20booWho(bool)%20%7B%0A%20%20%2F%2F%20Check%20for%20the%20type%20of%20parameter%20with%20typeof%20and%20return%20true%20if%20it%20is%20a%20boolean%20primitive%0A%20%20%0A%20%20return%20typeof%20bool%20%3D%3D%3D%20'boolean'%3B%0A%20%0A%20%20%0A%7D%0A%0AbooWho(false`)`%3B)
