@@ -174,3 +174,12 @@ Let's do this!
 [Twitch TV App - DEMO](https://bsummersgb.github.io/twitchtv/)
 
 1. [Boo Who](https://www.freecodecamp.com/challenges/boo-who#?solution=function%20booWho(bool)%20%7B%0A%20%20%2F%2F%20Check%20for%20the%20type%20of%20parameter%20with%20typeof%20and%20return%20true%20if%20it%20is%20a%20boolean%20primitive%0A%20%20%0A%20%20return%20typeof%20bool%20%3D%3D%3D%20'boolean'%3B%0A%20%0A%20%20%0A%7D%0A%0AbooWho(false`)`%3B)
+
+### Day 24: January 31, 2017
+
+**Today's Progress**: More algorithms.
+
+**Thoughts** I think it would be smart to get a lot more practice with higher-order functions such as reduce, map, and filter.
+
+**Link(s) to work**
+1. [Sorted Union](https://www.freecodecamp.com/challenges/sorted-union#?solution=%0Afunction%20uniteUnique(arr)%20%7B%0A%20%20%2F%2F%20Convert%20the%20arguments%20object%20into%20a%20single%20array%2C%20then%20flatten%20it%20using%20reduce...%0A%20%20%2F%2F%20...then%20filter%20the%20current%20value%20(b)%20to%20check%20that%20the%20number%20is%20not%20in%20the%20array%20i.e.%20is%20-1%0A%20%20var%20uniqueArray%20%3D%20Array.from(arguments).reduce(function(a%2C%20b)%20%7B%0A%20%20%20%20return%20a.concat(b.filter(function(i)%7B%0A%20%20%20%20%20%20return%20a.indexOf(i)%20%3D%3D%3D%20-1%3B%0A%20%20%20%20%7D))%3B%0A%20%20%7D%2C%20%5B%5D)%3B%0A%20%20%0A%20%20return%20uniqueArray%3B%0A%20%20%0A%2F%2F%20**%20My%20earlier%20solution%20simply%20used%20reduce%20to%20flatten%20the%20array%20and%20then%20used%20a%20for%20loop%3A%20%0A%0A%2F%2F%20var%20singleArray%20%3D%20Array.from(arguments).reduce(function(a%2C%20b)%20%7B%0A%2F%2F%20%20%20%20%20return%20a.concat(b)%3B%0A%2F%2F%20%20%20%7D%2C%20%5B%5D)%3B%20%0A%0A%2F%2F%20%20%20var%20newArray%20%3D%20%5B%5D%3B%0A%20%20%0A%2F%2F%20%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20singleArray.length%3B%20i%2B%2B)%20%7B%0A%2F%2F%20%20%20%20%20if%20(%20!newArray.includes(singleArray%5Bi%5D)%20)%20%7B%0A%2F%2F%20%20%20%20%20%20%20newArray.push(singleArray%5Bi%5D)%3B%0A%2F%2F%20%20%20%20%20%7D%0A%2F%2F%20%20%20%7D%0A%2F%2F%20%20%20return%20newArray%3B%0A%20%20%0A%20%20%2F%2F%20if%20this%20value%20is%20already%20in%20the%20array%20then%20skip%20it%20%0A%7D%0A%0AuniteUnique(%5B1%2C%203%2C%202%2C%202%5D%2C%20%5B1%2C%20%5B5%5D%5D%2C%20%5B2%2C%20%5B4%5D%5D)%3B%0A)
