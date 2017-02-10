@@ -183,3 +183,44 @@ Let's do this!
 
 **Link(s) to work**
 1. [Sorted Union](https://www.freecodecamp.com/challenges/sorted-union#?solution=%0Afunction%20uniteUnique(arr)%20%7B%0A%20%20%2F%2F%20Convert%20the%20arguments%20object%20into%20a%20single%20array%2C%20then%20flatten%20it%20using%20reduce...%0A%20%20%2F%2F%20...then%20filter%20the%20current%20value%20(b)%20to%20check%20that%20the%20number%20is%20not%20in%20the%20array%20i.e.%20is%20-1%0A%20%20var%20uniqueArray%20%3D%20Array.from(arguments).reduce(function(a%2C%20b)%20%7B%0A%20%20%20%20return%20a.concat(b.filter(function(i)%7B%0A%20%20%20%20%20%20return%20a.indexOf(i)%20%3D%3D%3D%20-1%3B%0A%20%20%20%20%7D))%3B%0A%20%20%7D%2C%20%5B%5D)%3B%0A%20%20%0A%20%20return%20uniqueArray%3B%0A%20%20%0A%2F%2F%20**%20My%20earlier%20solution%20simply%20used%20reduce%20to%20flatten%20the%20array%20and%20then%20used%20a%20for%20loop%3A%20%0A%0A%2F%2F%20var%20singleArray%20%3D%20Array.from(arguments).reduce(function(a%2C%20b)%20%7B%0A%2F%2F%20%20%20%20%20return%20a.concat(b)%3B%0A%2F%2F%20%20%20%7D%2C%20%5B%5D)%3B%20%0A%0A%2F%2F%20%20%20var%20newArray%20%3D%20%5B%5D%3B%0A%20%20%0A%2F%2F%20%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20singleArray.length%3B%20i%2B%2B)%20%7B%0A%2F%2F%20%20%20%20%20if%20(%20!newArray.includes(singleArray%5Bi%5D)%20)%20%7B%0A%2F%2F%20%20%20%20%20%20%20newArray.push(singleArray%5Bi%5D)%3B%0A%2F%2F%20%20%20%20%20%7D%0A%2F%2F%20%20%20%7D%0A%2F%2F%20%20%20return%20newArray%3B%0A%20%20%0A%20%20%2F%2F%20if%20this%20value%20is%20already%20in%20the%20array%20then%20skip%20it%20%0A%7D%0A%0AuniteUnique(%5B1%2C%203%2C%202%2C%202%5D%2C%20%5B1%2C%20%5B5%5D%5D%2C%20%5B2%2C%20%5B4%5D%5D)%3B%0A)
+
+### Day 25: February 1, 2017
+
+**Today's Progress**: More algorithms.
+
+**Thoughts** I think it would be smart to get a lot more practice with higher-order functions such as reduce, map, and filter.
+
+**Link(s) to work**
+1. [Convert HTML Entities](https://www.freecodecamp.com/challenges/convert-html-entities#?solution=function%20convertHTML(str)%20%7B%0A%20%20%0A%20%20%2F%2F%20Array%20to%20hold%20transformations%0A%20%20var%20holderArr%20%3D%20%5B%5D%3B%0A%20%20%0A%20%20%2F%2F%20Iterate%20through%20each%20character%20and%20replace%20any%20special%20characters%20with%20their%20HTML%20entity%20syntax%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20str.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20switch%20(str%5Bi%5D)%20%7B%0A%20%20%20%20%20%20case%20%22%26%22%3A%0A%20%20%20%20%20%20%20%20holderArr.push(%20str%5Bi%5D.replace(%2F%26%2Fg%2C%20'%26amp%3B')%20)%3B%0A%20%20%20%20%20%20%20%20break%3B%0A%20%20%20%20%20%20case%20%22%3C%22%3A%0A%20%20%20%20%20%20%20%20holderArr.push(%20str%5Bi%5D.replace(%2F%3C%2Fg%2C%20'%26lt%3B')%20)%3B%0A%20%20%20%20%20%20%20%20break%3B%0A%20%20%20%20%20%20case%20%22%3E%22%3A%0A%20%20%20%20%20%20%20%20holderArr.push(%20str%5Bi%5D.replace(%2F%3E%2Fg%2C%20'%26gt%3B')%20)%3B%0A%20%20%20%20%20%20%20%20break%3B%0A%20%20%20%20%20%20case%20%22'%22%3A%0A%20%20%20%20%20%20%20%20holderArr.push(%20str%5Bi%5D.replace(%2F'%2Fg%2C%20'%26apos%3B')%20)%3B%0A%20%20%20%20%20%20%20%20break%3B%0A%20%20%20%20%20%20case%20'%22'%3A%0A%20%20%20%20%20%20%20%20holderArr.push(%20str%5Bi%5D.replace(%2F%22%2Fg%2C%20'%26quot%3B')%20)%3B%0A%20%20%20%20%20%20%20%20break%3B%0A%20%20%20%20%20%20default%3A%0A%20%20%20%20%20%20%20%20holderArr.push(str%5Bi%5D)%3B%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20%0A%20%20%2F%2F%20Convert%20array%20of%20characters%20back%20to%20a%20string%0A%20%20return(holderArr.join(%22%22))%3B%0A%20%20%0A%20%20%0A%20%20%0A%7D)
+
+2. [Spinal Tap Case](https://www.freecodecamp.com/challenges/spinal-tap-case#?solution=%0Afunction%20spinalCase(str)%20%7B%0A%20%20%0A%20%20var%20newStr%20%3D%20str%0A%20%20%20%20.replace(%2F_%2Fg%2C%20%22-%22)%0A%20%20%20%20.replace(%2F%5Cs%2Fg%2C%20%22-%22)%0A%20%20%20%20.replace(%2F%5Ba-z%5D(%3F%3D%5BA-Z%5D)%2Fg%2C%20%22%24%26-%22)%3B%20%0A%20%20%0A%20%20return%20newStr.toLowerCase()%3B%0A%7D%0A%0A%2F*%0A%20%20-%20Replace%20all%20underscores%20with%20dashes%0A%20%20-%20Replace%20all%20spaces%20with%20dashes%0A%20%20-%20Match%20all%20lowercase%20letters%20if%20they%20are%20followed%20by%20an%20uppercase%20letter.%20Then%20replace%0A%20%20%20%20it%20with%20the%20matched%20string%20followed%20by%20a%20dash%20%20%20%20%0A%20%20-%20Return%20the%20result%20lower-cased%0A*%2F%0A%0A%0AspinalCase('thisIsSpinalTap')%3B%0A)
+
+
+### Day 26: February 2, 2017
+
+**Today's Progress**: Fibonnaci algorithm.
+
+**Thoughts** This was a toughie!
+
+**Link(s) to work**
+1. [Sum Fibonacci Numbers](http://)
+
+### Day 27: February 3, 2017
+
+**Today's Progress**: Sum algorithm.
+
+**Thoughts** This was a toughie!
+
+**Link(s) to work**
+1. [Sum all Primes](https://www.freecodecamp.com/challenges/sum-all-primes#?solution=%0Afunction%20sumPrimes(num)%20%7B%0A%20%20%0A%20%20var%20arr%20%3D%20%5B%5D%3B%0A%20%20while%20(num%20%3E%200)%20%7B%0A%20%20%20%20arr.push(num)%3B%0A%20%20%20%20num--%3B%0A%20%20%7D%0A%20%20%0A%20%20%0A%20%20var%20sum%20%3D%200%3B%0A%20%20%0A%20%20%2F%2F%20Call%20the%20isPrime%20call%20back%20function%20on%20each%20number%20in%20the%20arr%20and%20then%20add%20it%20to%20the%20sum%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20arr.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20if%20(%20isPrime(arr%5Bi%5D)%20)%7B%0A%20%20%20%20%20%20sum%20%2B%3D%20arr%5Bi%5D%3B%20%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20%20%20%0A%20%20function%20isPrime(num)%20%7B%0A%20%20%20%20if%20(num%20%3C%202)%20return%20false%3B%0A%0A%20%20%20%20%2F*%20%0A%20%20%20%20%20%20An%20integer%20is%20prime%20if%20it%20is%20not%20divisible%20by%20any%20prime%20less%20than%20or%20equal%20%0A%20%20%20%20%20%20to%20its%20square%20root%0A%20%20%20%20*%2F%0A%0A%20%20%20%20var%20q%20%3D%20Math.floor(Math.sqrt(num))%3B%0A%0A%20%20%20%20for%20(var%20i%20%3D%202%3B%20i%20%3C%3D%20q%3B%20i%2B%2B)%20%7B%0A%20%20%20%20%20%20if%20(num%20%25%20i%20%3D%3D%3D%200)%20%7B%0A%20%20%20%20%20%20%20%20return%20false%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%0A%20%20%20%20return%20true%3B%0A%20%20%7D%0A%0A%20%20return%20sum%3B%0A%7D%0A%0AsumPrimes(10)%3B)
+
+### Day 28: February 10, 2017
+
+**Today's Progress**: Algorithms involving filter
+
+**Thoughts** Ok, ok so I missed a week of commits to this log. Whilst I have still been working on the algorithms I hadn't actually passed any since they became more mathematically-focused, so I didn't feel I had anything to commit. Honestly, this filled me with a feeling of inadequacy and failure but this is something I need to find a resolution for in the future. If I get stuck on something for too long, it'd probably be wise to move on to something else. I can always come back to it later with a fresh head. Otherwise the two algorithms went very well.
+
+**Link(s) to work**
+1. [Finders Keepers](https://www.freecodecamp.com/challenges/finders-keepers#?solution=%0Afunction%20findElement(arr%2C%20func)%20%7B%0A%20%20var%20num%20%3D%200%3B%0A%20%20%0A%20%20%2F*%20arr.filter(func)%20would%20return%20an%20array%20with%20all%20values%20that%20pass%20the%20truth%20test%2C%20so%0A%20%20%20%20%20it%20makes%20sense%20simply%20to%20target%20the%20first%20element%20in%20that%20array%20and%20assign%20it%20to%20the%20%0A%20%20%20%20%20num%20variable.%0A%20%20*%2F%0A%20%20%0A%20%20num%20%3D%20arr.filter(func)%5B0%5D%3B%0A%20%20%0A%20%20return%20num%3B%0A%7D%0A%0AfindElement(%5B1%2C%203%2C%205%2C%209%5D%2C%20function(num)%7B%20return%20num%20%25%202%20%3D%3D%3D%200%3B%20%7D)%3B%0A)
+
+2. [Drop it](https://www.freecodecamp.com/challenges/drop-it#?solution=%2F%2F%20Drop%20all%20elements%20from%20the%20start%20until%20one%20meets%20the%20true%20condition%2C%20and%20include%20all%20elements%20after%20that%20regardless%20of%20whether%20they%20are%20true%20or%20not.%0A%0Afunction%20dropElements(arr%2C%20func)%20%7B%0A%20%20%0A%20%20var%20newArr%20%3D%20%5B%5D%3B%0A%20%20%0A%20%20%0A%20%20if%20(arr.indexOf(arr.filter(func)%5B0%5D)%20%3D%3D%3D%20-1)%20%7B%0A%20%20%20%20return%20newArr%3B%0A%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20newArr%20%3D%20arr.slice(%20arr.indexOf(arr.filter(func)%5B0%5D)%20)%3B%0A%20%20%20%20%20%20return%20newArr%3B%0A%20%20%7D%0A%20%20%0A%20%20%2F*%0A%20%20%20%20If%20the%20index%20of%20the%20first%20element%20to%20match%20the%20predicate%20function%20is%20-1%2C%20i.e.%20no%20element%20%0A%20%20%20%20coerces%20to%20true%2C%20then%20return%20an%20empty%20array.%0A%20%20%20%20%0A%20%20%20%20Otherwise%2C%20slice%20the%20array%20from%20the%20index%20of%20the%20first%20value%20that%20matches%20the%20predicate.%0A%20%20%0A%20%20*%2F%0A%0A%7D%0A%0AdropElements(%5B1%2C%202%2C%203%2C%204%5D%2C%20function(n)%20%7Breturn%20n%20%3E%205%3B%7D)%3B%0A)
